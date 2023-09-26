@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Deployment Error Engine</title>
+</head>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+    }
+
+    h1 {
+        color: #333;
+    }
+
+    .search-form {
+        display: flex;
+        max-width: 500px;
+    }
+
+    .search-input {
+        flex: 1;
+        padding: 10px;
+        font-size: 16px;
+    }
+
+    .search-button {
+        padding: 10px 20px;
+        font-size: 16px;
+        background-color: #007BFF;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+
+    .search-button:hover {
+        background-color: #0056b3;
+    }
+</style>
+<body>
+    <h1>Deployment Error Engine</h1>
+    <form action="/search" method="post">
+        <input type="text" name="query" placeholder="Enter title or author">
+        <button type="submit">Search</button>
+    </form>
+</body>
+</html>

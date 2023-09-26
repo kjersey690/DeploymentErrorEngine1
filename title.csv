@@ -1,0 +1,3 @@
+text
+You cannot provide a consumer key error occurs when the connected app that was committed contains the consumer key. Resolving this error requires removing the consumer key from the connected app metadata file.
+Cannot create permission set group components since the following permission set names are invalid error occurs when a permission set that is part of the permission set group has not been committed or doesn’t exist in the target org. To resolve this error please commit the missing permission set or deploy the permission set to the target org as a pre deployment step
